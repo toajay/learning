@@ -66,7 +66,8 @@ else
 
 //----------------------------------------
 
-//Ternary operator
+//Ternary operator(?)
+var j=i>9?'Hello':'Hi';
 
 
 
