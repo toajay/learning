@@ -50,10 +50,19 @@ console.log(add);
 */
 //--------------------for in----------------------------
 //you can use this with object/Arry
+/*
 var arr = [10,20,25,30,35];
 for(var i in arr){
     console.log(arr[i]);
 }
+*/
+
+
+
+
+
+
+
 
 
 

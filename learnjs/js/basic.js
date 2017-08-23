@@ -68,6 +68,7 @@ else
 
 //Ternary operator(?)
 var j=i>9?'Hello':'Hi';
+console.log(j);
 
 
 

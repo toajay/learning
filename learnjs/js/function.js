@@ -72,5 +72,127 @@ undefined
 
 */
 //---------parseFloat();
+/*
+var a = 123;
+function f() {
+console.log(a);
+var a = 1;
+console.log(a);
+}
+f();
+
+*/
+/*
+a=10;
+function add(){
+    a = 5;
+   return a;
+   
+}
+console.log(a);
+console.log(add());
+console.log(a);
+*/
+/*
+var a = 123;
+function f() {
+console.log(a);
+a = 1;
+console.log(a);
+}
+
+f();
+*/
+/*
+name = "Vikas";
+function printName(){
+    console.log(name);
+    var name = 'Chandan';
+    console.log(name);
+    return name;
+}
+printName();
+*/
+
+//name = 'Ajay';
+
+//function is a data in java script
+// How???
+
+// function add(){
+//     return 1+1;
+// }
+
+//var result = add();
+//console.log(typeof add);
+
+//way to define function in java script
+
+//1.
+// function add(){
+//     return 1+1;
+// }
+/*
+add = function(){
+    return 1+1;
+}
+console.log(add());
+*/
+//'Ajay';'undefined', null
+
+/*
+var add = function(){
+    return 1+1;
+}
+console.log(add());
 
 
+var add1 = add;
+
+console.log(delete(add));
+//console.log(add());
+console.log(add1);
+
+*/
+//anonymous function-----------------
+//function (a){ return a;}
+
+/*
+add = function(){
+    return 6;
+}
+console.log(add());
+*/
+//Function call back
+
+/*
+function add(i,j){
+    return i+j;
+}
+
+var abc = add;
+delete(add);
+*/
+
+/*
+function add(i, j){
+    return i+j;
+}
+console.log(add(1,2));
+*/
+//function as a parameter
+/*
+function add_add(a,b){
+    return a()+b();
+}
+
+function one(){
+    return 5;
+}
+
+function two(){
+    return 6;
+}
+console.log(add_add(one, two));
+
+*/
