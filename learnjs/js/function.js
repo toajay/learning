@@ -196,3 +196,97 @@ function two(){
 console.log(add_add(one, two));
 
 */
+/*
+function invoke_add(function(){return 1;}, function(){return 2;}){
+
+}
+
+*/
+/*
+multiplyNum = function(a, b, c){
+    var arrNum = [];
+    for(var i = 0;i < arguments.length;i++){
+        arrNum[i] = arguments[i]*2;
+    }
+    return arrNum;
+}
+
+addNum = function(i){
+    i=i+1;
+    return i;
+} 
+
+var arrResult = multiplyNum(10,20,30);
+
+for(var i = 0; i<arrResult.length; i++ ){
+    arrResult[i] = addNum(arrResult[i]);
+}
+
+console.log(arrResult);
+console.log(addNum(5));
+
+*/
+/*
+multiplyNum = function(a, b, c, callback){
+    var arrNum = [];
+    for(var i = 0;i < arguments.length;i++){
+        arrNum[i] = callback(arguments[i]*2);
+    }
+    return arrNum;
+}
+
+addNum = function(i){
+    i=i+1;
+    return i;
+} 
+
+minusNum = function(j){
+    j = j-k;
+    return j;
+}
+//var arrResult = multiplyNum(10,20,30, addNum);
+var arrResult = multiplyNum(10,20,30, minusNum);
+console.log(arrResult);
+
+*/
+
+/*
+multiplyNum = function(a, b, c, callback){
+    var arrNum = [];
+    for(var i = 0;i < arguments.length;i++){
+        arrNum[i] = callback(arguments[i]*2);
+    }
+    return arrNum;
+}
+
+//var arrResult = multiplyNum(10,20,30, addNum);
+var arrResult = multiplyNum(10,20,30, function(i){
+    i = i+2;
+    return i;
+});
+console.log(arrResult);
+
+
+*/
+// self executble function
+/*
+addNum = function(a,b){
+    return a+b;
+}
+
+console.log(addNum(4,10));
+*/
+(
+    function(name){
+        console.log(name);
+    }
+)('Ajay');
+
+
+
+
+
+
+
+
+
