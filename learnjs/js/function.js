@@ -276,17 +276,41 @@ addNum = function(a,b){
 
 console.log(addNum(4,10));
 */
+/*
 (
     function(name){
         console.log(name);
     }
 )('Ajay');
 
+*/
+//private function
 
+sayHello = function(){
+    console.log('Hello');
+    sayHi = function(){
+        console.log('Hi');
+        return 'Abc';
+    }
+    return sayHi;
+}
+console.log(sayHello()());
 
+//function return a function
+/*
+sayHello = function(){
+    console.log('Hello');
+    return sayHi = function(){
+        console.log('Hi');
+        return 'Ajay';
+    }    
+}
 
+//var result = sayHello();
 
-
+//console.log(result());
+console.log(sayHello()());
+*/
 
 
 
